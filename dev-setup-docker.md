@@ -1,6 +1,6 @@
 [Home Page](https://longchengong.github.io)
----
 
+---
 # MySQL Setup
 1. pull the image  
     `docker pull mysql:tag`
