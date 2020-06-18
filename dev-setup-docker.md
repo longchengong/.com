@@ -1,3 +1,6 @@
+[Home Page](https://longchengong.github.io)
+---
+
 # MySQL Setup
 1. pull the image  
     `docker pull mysql:tag`
@@ -34,3 +37,6 @@ source:
     
  source:  
  - [redis - Docker Hub](https://hub.docker.com/_/redis)
+
+---
+[Home Page](https://longchengong.github.io)
