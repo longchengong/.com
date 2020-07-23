@@ -3,8 +3,8 @@
 
 # SSH
 
-* Access  
-  `ssh remote_username@host_ip`
+* Access
+`ssh remote_username@host_ip`
 
 # SFTP
 
@@ -21,11 +21,11 @@
 `get remote_path/filename localpath/`
 
 * Commandline
-  * Operation in remote host, same with the original commandline
-  * Operation in local machine, add prefix "l"
-    * `pwd` -> `lpwd`
-    * `cd` -> `lcd`
-    * `ls` -> `lls`
+  + Operation in remote host, same with the original commandline
+  + Operation in local machine, add prefix "l"
+    - `pwd` -> `lpwd`
+    - `cd` -> `lcd`
+    - `ls` -> `lls`
 
 ---
 [Home Page](https://longchengong.github.io)
