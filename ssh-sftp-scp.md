@@ -11,6 +11,7 @@
 
 * Remote port forward  
 `ssh remote_username@host_ip -R remote_port1:destination_host1:destination_port1 -R remote_port2:destination_host2:destination_port2 -R ...`  
+
 `ssh remote_username@host_ip -R remote_port1:127.0.0.1:destination_port1`
 
 # SFTP
@@ -46,7 +47,7 @@
 `scp remote_username@host_ip:remote_path/filename local_path/`
 
 * Copy remote directory to local
-`scp -r remote_username@host_ip:remote_directory local_path/`
+`scp -r remote_username@host_ip:remote_path local_path/`
 
 
 ---
