@@ -49,6 +49,18 @@
 * Copy remote directory to local
   `scp -r remote_username@host_ip:remote_path local_path/`
 
+# Device/OS Info
+* General OS Info
+  `top`
+* CPU/Mememory/Linux kernel Info
+  + `cat /proc/cpuinfo`
+  + `cat /proc/meminfo`
+  + `cat /proc/version`
+* OS name & version for Redhat
+  + In Debian: `/etc/debian_version`
+  + In Ubuntu: `lsb_release -a or /etc/debian_version`
+  + In Redhat: `cat /etc/redhat-release`
+  + In Fedora: `cat /etc/fedora-release`
 
 ---
 [Home Page](https://longchengong.github.io)
