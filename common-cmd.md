@@ -62,5 +62,8 @@
   + In Redhat: `cat /etc/redhat-release`
   + In Fedora: `cat /etc/fedora-release`
 
+# Zip/Unzip
+ + Zip: `zip -r tgt.zip a b c/`
+ + Unzip: `unzip src.zip`
 ---
 [Home Page](https://longchengong.github.io)
