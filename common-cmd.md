@@ -63,7 +63,12 @@
   + In Fedora: `cat /etc/fedora-release`
 
 # Zip/Unzip
- + Zip: `zip -r tgt.zip a b c/`
- + Unzip: `unzip src.zip`
+ + Zip: `zip -r tgt.zip a b c/` 
+ + Unzip: `unzip src.zip`  
+
+# Tape archive(tar)
+  + Create: `tar -cvf tgt.tar a b c/`
+  + Extract: `tar -xvf src.tar`  
+
 ---
 [Home Page](https://longchengong.github.io)
