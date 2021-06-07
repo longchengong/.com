@@ -56,6 +56,12 @@
   + `cat /proc/cpuinfo`
   + `cat /proc/meminfo`
   + `cat /proc/version`
+* List Hard Disk Partion
+  + `fdisk -l`
+* list block devices (combine with fdisk -l)
+  + `lsblk` 
+* report file system disk space usage
+  + `df -H/h` -- dish free
 * OS name & version for Redhat
   + In Debian: `/etc/debian_version`
   + In Ubuntu: `lsb_release -a or /etc/debian_version`
