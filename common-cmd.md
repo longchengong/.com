@@ -76,5 +76,12 @@
   + Create: `tar -cvf tgt.tar a b c/`
   + Extract: `tar -xvf src.tar`  
 
+# Check Login Activities
+  + Show who is logged on and what they are doing: `w`
+  + Show who is logged on: `who`
+  + Show last logged on: `last`
+  + Show bad login attempt: `lastb`
+
+
 ---
 [Home Page](https://longchengong.github.io)
