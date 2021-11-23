@@ -82,6 +82,12 @@
   + Show last logged on: `last`
   + Show bad login attempt: `lastb`
 
+# Network connections/Socket
+  + Show info related to listening port: `lsof -i :port`
+  + Show sockets info with state and source/destination host and src/dst port:  
+      `ss -anp state listening/established src/dst ip sport/dport [= \> \<] :port`
+  + Show info related to port(Linux/Windows): `netstat -anp | grep "port"` `netstat -ano | findstr "port"`
+
 
 ---
 [Home Page](https://longchengong.github.io)
